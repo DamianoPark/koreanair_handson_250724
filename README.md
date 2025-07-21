@@ -2,7 +2,6 @@
 
 ## Handons On 세션 소개
 
-이번 세션에서는 
 
 ### Multi Agent with Genie
 
