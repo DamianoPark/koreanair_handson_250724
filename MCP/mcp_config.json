@@ -1,0 +1,34 @@
+{
+    "mcpServers": {
+      "uc-function-mcp": {
+        "command": "npx",
+        "args": [
+            "mcp-remote",
+            "https://<Hostname>/api/2.0/mcp/functions/system/ai",
+            "--header",
+            "Authorization: Bearer dapi####"
+        ],
+        "note": "Databricks UC function"
+      },
+      "genie-mcp01": {
+        "command": "npx",
+        "args": [
+            "mcp-remote",
+            "https://<Hostname>/api/2.0/mcp/genie/<Genie_Space_ID>",
+            "--header",
+            "Authorization: Bearer dapi####"
+        ],
+        "note": "Databricks Genie - 홈쇼핑 고객, 판매 거래 데이터"
+      },
+      "genie-mcp02": {
+        "command": "npx",
+        "args": [
+            "mcp-remote",
+            "https://<Hostname>/api/2.0/mcp/genie/<Genie_Space_ID>",
+            "--header",
+            "Authorization: Bearer dapi####"
+        ],
+        "note": "Databricks Genie- 마케팅 켐페인 데이터"
+      }
+    }
+  }
